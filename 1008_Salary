@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int NUMBER,WORKHOUR;
+    float PERHOUR,SALARY;
+    scanf("%d\n%d",&NUMBER,&WORKHOUR);
+    scanf("\n%f",&PERHOUR);
+    SALARY= (float)WORKHOUR * PERHOUR;
+    printf("NUMBER = %d\n",NUMBER);
+    printf("SALARY = U$ %.2f",SALARY);
+    return 0;
+}
