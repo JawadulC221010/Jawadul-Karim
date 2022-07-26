@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int hour,sp;
+    float liter;
+    scanf("%d\n%d",&hour,&sp);
+    liter=(sp*hour)/12.00;
+
+    printf("%.3f",liter);
+
+    return 0;
+}
