@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int ih,im,fh,fm,a,b,c,d,e,f,g,h;
+    scanf("%d %d %d %d",&ih,&im,&fh,&fm);
+    a=(ih*60)+im;
+    b=(fh*60)+fm;
+    c=1440-a+b;
+    d=b-a;
+    e=c/60;
+    f=c%60;
+    g=d/60;
+    h=d%60;
+    if(a>=b)
+        printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",e,f);
+    else if(a<b)
+        printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n",g,h);
+    return 0;
+}
