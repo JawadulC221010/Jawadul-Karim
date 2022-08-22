@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int x,i,s=0,c=0;
+    double avg;
+    for(i=0;i>=0;i++)
+    {
+    scanf("%d\n",&x);
+    if(x>0)
+    {
+    s+=x;
+    c++;
+    }
+    else if(x<0)
+    break;
+    }
+    avg=(double)s/c;
+    printf("%.2lf\n",avg);
+    return 0;
+}
