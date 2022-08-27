@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+    while(1)
+    {
+        int x,y=5,sum=0;
+        scanf("%d",&x);
+        if(x==0)
+            break;
+        else
+        {
+            while(y>0)
+            {
+                if(x%2 == 0)
+                {
+                    sum += x;
+                    x++;
+                    y--;
+                }
+                else
+                {
+                    x++;
+                }
+            }
+        }
+        printf("%d\n",sum);
+    }
+    return 0;
+}
