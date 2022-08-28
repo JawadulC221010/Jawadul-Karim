@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int x;
+    long long y;
+    char c;
+    float t;
+    double d;
+    scanf("%d %lld %c %f %lf", &x, &y, &c, &t, &d);
+    printf("%d\n%lld\n%c\n%.2f\n%.1lf", x, y, c, t, d);
+    return 0;
+}
