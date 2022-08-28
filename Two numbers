@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int f,c,r, i, j;
+    float A,B,X;
+    scanf("%f %f",&A,&B);
+    X=A/B;
+    f=floor(X);
+    c=ceil(X);
+    r=round(X);
+    i = (int)A;
+    j = (int)B;
+    printf("floor %d / %d = %d\n",i,j,f);
+    printf("ceil %d / %d = %d\n",i,j,c);
+    printf("round %d / %d = %d",i,j,r);
+    return 0;
+}
