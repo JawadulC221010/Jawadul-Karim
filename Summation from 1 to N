@@ -1,0 +1,10 @@
+#include<stdio.h>
+ 
+int main()
+{
+    long long int N,X;
+    scanf("%lld",&N);
+    X=(N*(N+1))/2;
+    printf("%lld",X);
+    return 0;
+}
